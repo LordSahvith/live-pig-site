@@ -45,7 +45,7 @@ $(document).ready(function() {
             targetLink = "." + self.attr('class'),
             targetSection = "#" + self.attr('id').slice(0, self.attr('id').length - 4);
 
-        $("html, body").animate({scrollTop: $(targetSection).offset().top - 136}, 1500);
+        $("html, body").animate({scrollTop: $(targetSection).offset().top - 140}, 1500);
     });
     
 });
