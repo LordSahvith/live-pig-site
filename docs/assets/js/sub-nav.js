@@ -92,7 +92,7 @@ $(window).bind('scroll', function() {
     var heroHeight = $('.hero').height();
     var foodWelcomeHeight = $('.welcome').height();
 
-    var navHeight = heroHeight + foodWelcomeHeight + 70;
+    var navHeight = heroHeight + foodWelcomeHeight + 50;
     var scrollingNavHeight = navHeight;
 
     if ($(window).scrollTop() > navHeight) {
