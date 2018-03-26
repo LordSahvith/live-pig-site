@@ -1,3 +1,9 @@
+/* 
+
+    Site Creator - Caleb Anderson
+
+*/
+
 // Hide the element. Doing this here will prevent the elements from disappering if JS is disabled.
 $('.fade-left > *').css({'opacity':'0', 'transform': 'translateX(' + 2 + 'em)'});
 
