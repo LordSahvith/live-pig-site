@@ -42,15 +42,18 @@
     transition: all .4s;
 }
 
-.menu-icon i {
+.menu-icon i,
+.events-icon i {
     transition: all .4s;
 }
 
-.menu-icon:hover {
+.menu-icon:hover,
+.events-icon:hover {
     cursor: pointer;
 }
 
-.menu-icon:hover i {
+.menu-icon:hover i,
+.events-icon:hover i {
     color: #4dbb04; 
 }
 
