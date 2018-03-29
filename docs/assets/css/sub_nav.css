@@ -10,12 +10,11 @@
 }
 
 .sub-menu-btn {
-    background:none!important;
-    color:white;
-    border:none; 
+    background: none!important;
+    color: white;
+    border: none; 
     margin-top: 30px;
     font: inherit;
-    border: none;
     cursor: pointer; 
     font-size: 2.2rem;
     transition: all .3s;

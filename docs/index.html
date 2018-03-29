@@ -20,55 +20,60 @@
    
     <!-- =========== MAIN NAV ====================== -->
     
-    <nav class="nav-bar">
+    <header>
         
-        <div id="mobile-nav" class="overlay">            
-            <div class="overlay-content"> 
-               <div class="container">
-                   
-                    <a href="about.html">About</a>
-                    <a href="menus.html">Menus</a>
-                    <a class="sub-class" href="food.html">Food</a>
-                    <a class="sub-class" href="drinks.html">Drinks</a>
-                    <a href="events.html">Events</a>
-                    <a href="contact.html">Contact</a>                
-                   
-               </div>               
-            </div>
-            <div class="mobile-icon" onclick="toggleNav()">                
-               <div class="fade-up">
-                    <div class="toggle-button"> 
-                        <div class="menu-bar menu-bar-top"></div>
-                        <div class="menu-bar menu-bar-middle"></div>
-                        <div class="menu-bar menu-bar-bottom"></div>     
-                    </div>               
-               </div>                      
-            </div>    
-            
-        </div> <!-- mobile-nav -->
+        <nav class="nav-bar">
+
+            <div id="mobile-nav" class="overlay">            
+                <div class="overlay-content"> 
+                   <div class="container">
+
+                        <a href="about.html">About</a>
+                        <a href="menus.html">Menus</a>
+                        <a class="sub-class" href="food.html">Food</a>
+                        <a class="sub-class" href="drinks.html">Drinks</a>
+                        <a href="events.html">Events</a>
+                        <a href="contact.html">Contact</a>                
+
+                   </div>               
+                </div>
+                <div class="mobile-icon" onclick="toggleNav()">                
+                   <div class="fade-up">
+                        <div class="toggle-button"> 
+                            <div class="menu-bar menu-bar-top"></div>
+                            <div class="menu-bar menu-bar-middle"></div>
+                            <div class="menu-bar menu-bar-bottom"></div>     
+                        </div>               
+                   </div>                      
+                </div>    
+
+            </div> <!-- mobile-nav -->
+
+            <a href="index.html"><img class="logo logo-mobile" src="./assets/img/logo.png" alt="The Green Pig Pub Logo"></a>
+
+            <div class="main-nav fade-down">
+
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="about.html">About</a></li>                                
+                    <li class="dropdown-btn nav-item">
+                        <a href="menus.html">Menus <i class="fas fa-caret-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="food.html">Food</a></li>
+                                <li><a href="drinks.html">Drinks</a></li>
+                            </ul>
+                    </li>                                                
+                    <a href="index.html"><img class="logo logo-main" src="./assets/img/logo.png" alt="The Green Pig Pub Logo"></a>    
+                    <li class="nav-item hide-home"><a href="index.html">Home</a></li>                                
+                    <li class="nav-item"><a href="events.html">Events</a></li>                                
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>                                
+                </ul>
+
+            </div> <!-- main-nav -->
+
+        </nav>
         
-        <a href="index.html"><img class="logo logo-mobile" src="./assets/img/logo.png" alt="The Green Pig Pub Logo"></a>
-        
-        <div class="main-nav fade-down">
-            
-            <ul class="nav-items">
-                <li class="nav-item"><a href="about.html">About</a></li>                                
-                <li class="dropdown-btn nav-item">
-                    <a href="menus.html">Menus <i class="fas fa-caret-down"></i></a>
-                        <ul class="dropdown">
-                            <li><a href="food.html">Food</a></li>
-                            <li><a href="drinks.html">Drinks</a></li>
-                        </ul>
-                </li>                                                
-                <a href="index.html"><img class="logo logo-main" src="./assets/img/logo.png" alt="The Green Pig Pub Logo"></a>    
-                <li class="nav-item hide-home"><a href="index.html">Home</a></li>                                
-                <li class="nav-item"><a href="events.html">Events</a></li>                                
-                <li class="nav-item"><a href="contact.html">Contact</a></li>                                
-            </ul>
-            
-        </div> <!-- main-nav -->
-        
-    </nav>
+    </header>
+    
     
 
     
