@@ -83,11 +83,12 @@ a.sub-class {
 }
 
 .toggle-button .menu-bar {
-    position: absolute;
+    position: fixed;
     border-radius: 2px;
     height: 4px;
     width: 42px;
     background-color: #FFF;
+    z-index: 15;
     transition: .5s;
 }
 
