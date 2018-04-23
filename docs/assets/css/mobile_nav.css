@@ -68,7 +68,7 @@ a.sub-class {
     height: 40px;
     top: 22px;
     right: 25px;
-    transform: translate(-22px, -20px);
+/*    transform: translate(-22px, -20px);*/
     padding: 4px;
     transition: .25s;
     z-index: 15;
