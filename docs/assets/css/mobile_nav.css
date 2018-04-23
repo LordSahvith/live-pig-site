@@ -63,12 +63,13 @@ a.sub-class {
 }
 
 .toggle-button {
-    position: fixed;
+    position: relative;
     width: 44px;
     height: 40px;
     top: 22px;
     right: 25px;
-/*    transform: translate(-22px, -20px);*/
+    transform: translate(-22px, -20px);
+    -webkit-transform: translate(-22px, -20px);
     padding: 4px;
     transition: .25s;
     z-index: 15;
@@ -83,7 +84,7 @@ a.sub-class {
 }
 
 .toggle-button .menu-bar {
-    position: fixed;
+    position: absolute;
     border-radius: 2px;
     height: 4px;
     width: 42px;
@@ -110,17 +111,20 @@ a.sub-class {
 
 .button-open .menu-bar-top {
     transform: rotate(45deg) translate(8px, 8px);
+    -webkit-transform: rotate(45deg) translate(8px, 8px);
     transition: .5s;
 }
 
 .button-open .menu-bar-middle {
     transform: translate(200%);
+    -webkit-transform: translate(200%);
     transition: .1s ease-in;
     opacity: 0;
 }
 
 .button-open .menu-bar-bottom {
     transform: rotate(-45deg) translate(8px, -7px);
+    -webkit-transform: rotate(-45deg) translate(8px, -7px);
     transition: .5s;
 }
 
