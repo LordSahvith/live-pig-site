@@ -92,7 +92,7 @@ a.sub-class {
     height: 4px;
     width: 42px;
     background-color: #FFF;
-    z-index: 15;
+/*    z-index: 15;*/
     transition: .5s;
 }
 
