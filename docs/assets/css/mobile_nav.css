@@ -87,7 +87,7 @@ a.sub-class {
 }
 
 .toggle-button .menu-bar {
-    position: fixed;
+    position: absolute;
     border-radius: 2px;
     height: 4px;
     width: 42px;
