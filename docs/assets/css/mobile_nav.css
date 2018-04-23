@@ -89,12 +89,12 @@ a.sub-class {
 }
 
 .toggle-button .menu-bar {
-    position: relative;
+    position: fixed;
     border-radius: 2px;
     height: 4px;
     width: 42px;
     background-color: #FFF;
-/*    z-index: 15;*/
+    z-index: 15;
     transition: .5s;
 }
 
@@ -117,34 +117,19 @@ a.sub-class {
 .button-open .menu-bar-top {
     transform: rotate(45deg) translate(8px, 8px);
     -webkit-transform: rotate(45deg) translate(8px, 8px);
-/*
-    -ms-transform: rotate(45deg) translate(8px, 8px);
-    -moz-transform: rotate(45deg) translate(8px, 8px);
-    -o-transform: rotate(45deg) translate(8px, 8px);
-*/
     transition: .5s;
 }
 
 .button-open .menu-bar-middle {
     transform: translate(200%);
     -webkit-transform: translate(200%);
-/*
-    -ms-transform: translate(200%);
-    -moz-transform: translate(200%);
-    -o-transform: translate(200%);
     transition: .1s ease-in;
-*/
     opacity: 0;
 }
 
 .button-open .menu-bar-bottom {
     transform: rotate(-45deg) translate(8px, -7px);
     -webkit-transform: rotate(-45deg) translate(8px, -7px);
-/*
-    -ms-transform: rotate(-45deg) translate(8px, -7px);
-    -moz-transform: rotate(-45deg) translate(8px, -7px);
-    -o-transform: rotate(-45deg) translate(8px, -7px);
-*/
     transition: .5s;
 }
 
